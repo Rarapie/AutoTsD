@@ -1,5 +1,5 @@
 # AutoTsD: a Multi-Module Time Since Deposition (TsD) Prediction Tool
-This repository contains two independent prediction modules: **Autoencoder Multi-Task Prediction** (for simultaneous tissue and time prediction) and **Boruta RFC Prediction** (for Random Forest models with Boruta feature selection).
+This repository contains two independent prediction modules: **Autoencoder Multi-Task Prediction** (for simultaneous tissue and time prediction) and **Boruta RFC Prediction** (for Random Forest models with Boruta feature selection) based on the GTEX v10 human samples.
 
 ## Prerequisites
 
