@@ -1,20 +1,6 @@
 # AutoTsD: a Multi-Module Time Since Deposition (TsD) Prediction Tool
 This repository contains two independent prediction modules: **Autoencoder Multi-Task Prediction** (for simultaneous tissue and time prediction) and **Boruta RFC Prediction** (for Random Forest models with Boruta feature selection).
 
-## Table of Contents
-
-  - [Prerequisites](https://www.google.com/search?q=%23prerequisites)
-  - [Module 1: Autoencoder Multi-Task Prediction](https://www.google.com/search?q=%231-autoencoder-multi-task-prediction)
-      - [Overview](https://www.google.com/search?q=%23overview-sae)
-      - [File Dependencies](https://www.google.com/search?q=%23file-dependencies-sae)
-      - [Usage](https://www.google.com/search?q=%23usage-sae)
-  - [Module 2: Boruta RFC Prediction](https://www.google.com/search?q=%232-boruta-rfc-prediction)
-      - [Overview](https://www.google.com/search?q=%23overview-boruta)
-      - [File Dependencies](https://www.google.com/search?q=%23file-dependencies-boruta)
-      - [Usage](https://www.google.com/search?q=%23usage-boruta)
-
------
-
 ## Prerequisites
 
 Ensure you have the following Python libraries installed:
