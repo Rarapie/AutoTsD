@@ -124,7 +124,7 @@ python ./boruta_rfc/predict.py \
 
 ## Data Format
 
-For all input CSV files, the **first column** must be the Sample ID (index). Please check the demo CSV files.
+For all input CSV files, the **first column** must be the Sample ID (index). If you are looking for an example, please check the demo CSV files.
 
 **Example:**
 
