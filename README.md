@@ -49,12 +49,12 @@ python ./autoencoder/predict.py \
 
 ```bash
 python ./autoencoder/predict.py \
-  --input_time test/time.csv \
-  --input_tissue test/tissue.csv \
-  --model checkpoints/best_model.pth \
-  --meta checkpoints/model_meta.pkl \
-  --config checkpoints/config.json \
-  --output results/sae_predictions.csv
+  --input_time time.csv \
+  --input_tissue tissue.csv \
+  --model model.pth \
+  --meta model_meta.pkl \
+  --config config.json \
+  --output predictions.csv
 ```
 
 #### Arguments
@@ -105,10 +105,10 @@ python ./boruta_rfc/predict.py --input data/new_samples.csv
 
 ```bash
 python ./boruta_rfc/predict.py \
-  --input data/validation_set.csv \
-  --model models/rf_classifier.pkl \
-  --features results/boruta_features/selected_features.csv \
-  --output results/boruta_predictions.csv
+  --input tpm.csv \
+  --model model.pkl \
+  --features selected_features.csv \
+  --output predictions.csv
 ```
 
 #### Arguments
