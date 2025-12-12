@@ -74,7 +74,7 @@ python ./autoencoder/predict.py \
 
 Located in: `./boruta_rfc/predict.py`
 
-This module handles inference for machine learning models (e.g., Random Forest) where feature selection was performed using **Boruta**. It ensures that the input data strictly matches the features selected during training.
+This module handles inference for machine learning models (e.g., Random Forest) where feature selection was performed using **Boruta**. It ensures that the input data strictly matches the features selected during training. Current version only supports human skin samples.
 
 ### Overview
 
